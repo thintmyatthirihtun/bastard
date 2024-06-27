@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 192, 203); /* Pink background color to match the first page */
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000; /* Black color for text to match the first page */
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif; /* Ensure the same font family is used */
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
